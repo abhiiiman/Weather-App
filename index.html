@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png" alt=""></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <!--================ WEATHER ============================ -->
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+
+            <h1 class="temp">22°C</h1>
+
+            <h2 class="city">New York</h2>
+            <!-- ==== MORE DETAILS ========== -->
+            <div class="details">
+                <!-- column1 -->
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+
+                <!-- column2 -->
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 kmph</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="loader">
+            <div class="spinner"></div>
+        </div>
+
+    </div>
+
+    <div class="watermark">
+        <div class="text">
+            <h2>Divyanshiii</h2>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/Divvyanshiii" class="logo" target="_blank">
+            <i class="uil uil-github git_logo"></i>
+        </a>
+    </div>
+        
+<script src="index.js"></script> 
+</body>
+</html>
