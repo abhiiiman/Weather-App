@@ -15,4 +15,4 @@ This is a simple weather website that provides users with current weather inform
 
 ## Demo
 
-You can see a live demo of the website [here](https://divvyanshiii.github.io/Weather-App/).
+You can see a live demo of the website [here](https://divvyanshiii.github.io/Weather-App/) (opens in a new tab).
