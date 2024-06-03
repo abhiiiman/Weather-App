@@ -161,18 +161,28 @@ body{
     transform: translateX(10px);
 }
 
-
 /* Pre-loader */
 .loader {
-    display: none;
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Optional: semi-transparent background */
+    z-index: 1000; /* Ensure it is on top */
+    border-radius: 20px;
 }
 
 .spinner {
     border: 4px solid rgba(255, 255, 255, 0.3);
     border-top: 4px solid #3498db; 
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 40px; /* Larger size for better visibility */
+    height: 40px;
     animation: spin 1s linear infinite; 
 }
 
